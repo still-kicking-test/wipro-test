@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		ABF319061EEDA4DE007A9BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319051EEDA4DE007A9BE3 /* AppDelegate.swift */; };
-		ABF319081EEDA4DE007A9BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319071EEDA4DE007A9BE3 /* ViewController.swift */; };
-		ABF3190B1EEDA4DE007A9BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF319091EEDA4DE007A9BE3 /* Main.storyboard */; };
 		ABF3190D1EEDA4DE007A9BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF3190C1EEDA4DE007A9BE3 /* Assets.xcassets */; };
 		ABF319101EEDA4DE007A9BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF3190E1EEDA4DE007A9BE3 /* LaunchScreen.storyboard */; };
 		ABF3191B1EEDA4DE007A9BE3 /* WiproTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3191A1EEDA4DE007A9BE3 /* WiproTaskTests.swift */; };
+		ABF319371EEDAD22007A9BE3 /* ForecastPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319331EEDAD22007A9BE3 /* ForecastPresenter.swift */; };
+		ABF319391EEDAD22007A9BE3 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319351EEDAD22007A9BE3 /* ForecastViewController.swift */; };
+		ABF3193A1EEDAD22007A9BE3 /* ForecastViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319361EEDAD22007A9BE3 /* ForecastViewInput.swift */; };
+		ABF3193C1EEDAD7E007A9BE3 /* ForecastEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3193B1EEDAD7E007A9BE3 /* ForecastEntity.swift */; };
+		ABF3193E1EEDAE15007A9BE3 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3193D1EEDAE15007A9BE3 /* ForecastViewModel.swift */; };
+		ABF319431EEDAEEF007A9BE3 /* Beaufort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319421EEDAEEF007A9BE3 /* Beaufort.swift */; };
+		ABF319471EEDAFBA007A9BE3 /* Cardinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319461EEDAFBA007A9BE3 /* Cardinal.swift */; };
+		ABF319491EEDB002007A9BE3 /* DataManagerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319481EEDB002007A9BE3 /* DataManagerOutput.swift */; };
+		ABF3194B1EEDB084007A9BE3 /* DataManagerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3194A1EEDB084007A9BE3 /* DataManagerInput.swift */; };
+		ABF3194D1EEDB1C8007A9BE3 /* ForecastPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3194C1EEDB1C8007A9BE3 /* ForecastPresenterInput.swift */; };
+		ABF3194F1EEDB232007A9BE3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3194E1EEDB232007A9BE3 /* DataManager.swift */; };
+		ABF319511EEDB61A007A9BE3 /* ForecastViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319501EEDB61A007A9BE3 /* ForecastViewCell.swift */; };
+		ABF319531EEDBF92007A9BE3 /* ForecastViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF319521EEDBF92007A9BE3 /* ForecastViewCell.xib */; };
+		ABF319591EEDED3D007A9BE3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ABF319581EEDED3D007A9BE3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +40,26 @@
 /* Begin PBXFileReference section */
 		ABF319021EEDA4DE007A9BE3 /* WiproTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF319051EEDA4DE007A9BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABF319071EEDA4DE007A9BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABF3190A1EEDA4DE007A9BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABF3190C1EEDA4DE007A9BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABF3190F1EEDA4DE007A9BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABF319111EEDA4DE007A9BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABF319161EEDA4DE007A9BE3 /* WiproTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF3191A1EEDA4DE007A9BE3 /* WiproTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproTaskTests.swift; sourceTree = "<group>"; };
 		ABF3191C1EEDA4DE007A9BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF319331EEDAD22007A9BE3 /* ForecastPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastPresenter.swift; path = Modules/Main/ForecastPresenter.swift; sourceTree = "<group>"; };
+		ABF319351EEDAD22007A9BE3 /* ForecastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastViewController.swift; path = Modules/Main/ForecastViewController.swift; sourceTree = "<group>"; };
+		ABF319361EEDAD22007A9BE3 /* ForecastViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastViewInput.swift; path = Modules/Main/ForecastViewInput.swift; sourceTree = "<group>"; };
+		ABF3193B1EEDAD7E007A9BE3 /* ForecastEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastEntity.swift; path = DataManager/Entities/ForecastEntity.swift; sourceTree = "<group>"; };
+		ABF3193D1EEDAE15007A9BE3 /* ForecastViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastViewModel.swift; path = Modules/Main/ForecastViewModel.swift; sourceTree = "<group>"; };
+		ABF319421EEDAEEF007A9BE3 /* Beaufort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Beaufort.swift; path = "Supporting files/Beaufort.swift"; sourceTree = "<group>"; };
+		ABF319461EEDAFBA007A9BE3 /* Cardinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cardinal.swift; path = "Supporting files/Cardinal.swift"; sourceTree = "<group>"; };
+		ABF319481EEDB002007A9BE3 /* DataManagerOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManagerOutput.swift; path = DataManager/DataManagerOutput.swift; sourceTree = "<group>"; };
+		ABF3194A1EEDB084007A9BE3 /* DataManagerInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManagerInput.swift; path = DataManager/DataManagerInput.swift; sourceTree = "<group>"; };
+		ABF3194C1EEDB1C8007A9BE3 /* ForecastPresenterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastPresenterInput.swift; path = Modules/Main/ForecastPresenterInput.swift; sourceTree = "<group>"; };
+		ABF3194E1EEDB232007A9BE3 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = DataManager/DataManager.swift; sourceTree = "<group>"; };
+		ABF319501EEDB61A007A9BE3 /* ForecastViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastViewCell.swift; sourceTree = "<group>"; };
+		ABF319521EEDBF92007A9BE3 /* ForecastViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ForecastViewCell.xib; path = Modules/Main/ForecastViewCell.xib; sourceTree = "<group>"; };
+		ABF319581EEDED3D007A9BE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +101,11 @@
 		ABF319041EEDA4DE007A9BE3 /* WiproTask */ = {
 			isa = PBXGroup;
 			children = (
+				ABF319581EEDED3D007A9BE3 /* README.md */,
+				ABF3193F1EEDAEAA007A9BE3 /* Supporting files */,
+				ABF319251EEDA532007A9BE3 /* Modules */,
+				ABF319311EEDAC58007A9BE3 /* DataManager */,
 				ABF319051EEDA4DE007A9BE3 /* AppDelegate.swift */,
-				ABF319071EEDA4DE007A9BE3 /* ViewController.swift */,
-				ABF319091EEDA4DE007A9BE3 /* Main.storyboard */,
 				ABF3190C1EEDA4DE007A9BE3 /* Assets.xcassets */,
 				ABF3190E1EEDA4DE007A9BE3 /* LaunchScreen.storyboard */,
 				ABF319111EEDA4DE007A9BE3 /* Info.plist */,
@@ -94,6 +120,56 @@
 				ABF3191C1EEDA4DE007A9BE3 /* Info.plist */,
 			);
 			path = WiproTaskTests;
+			sourceTree = "<group>";
+		};
+		ABF319251EEDA532007A9BE3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ABF319301EEDAC32007A9BE3 /* Main */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		ABF319301EEDAC32007A9BE3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ABF319351EEDAD22007A9BE3 /* ForecastViewController.swift */,
+				ABF319361EEDAD22007A9BE3 /* ForecastViewInput.swift */,
+				ABF319501EEDB61A007A9BE3 /* ForecastViewCell.swift */,
+				ABF319521EEDBF92007A9BE3 /* ForecastViewCell.xib */,
+				ABF319331EEDAD22007A9BE3 /* ForecastPresenter.swift */,
+				ABF3194C1EEDB1C8007A9BE3 /* ForecastPresenterInput.swift */,
+				ABF3193D1EEDAE15007A9BE3 /* ForecastViewModel.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		ABF319311EEDAC58007A9BE3 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				ABF319321EEDAC5F007A9BE3 /* Entities */,
+				ABF319481EEDB002007A9BE3 /* DataManagerOutput.swift */,
+				ABF3194A1EEDB084007A9BE3 /* DataManagerInput.swift */,
+				ABF3194E1EEDB232007A9BE3 /* DataManager.swift */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		ABF319321EEDAC5F007A9BE3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				ABF3193B1EEDAD7E007A9BE3 /* ForecastEntity.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		ABF3193F1EEDAEAA007A9BE3 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF319461EEDAFBA007A9BE3 /* Cardinal.swift */,
+				ABF319421EEDAEEF007A9BE3 /* Beaufort.swift */,
+			);
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +259,7 @@
 			files = (
 				ABF319101EEDA4DE007A9BE3 /* LaunchScreen.storyboard in Resources */,
 				ABF3190D1EEDA4DE007A9BE3 /* Assets.xcassets in Resources */,
-				ABF3190B1EEDA4DE007A9BE3 /* Main.storyboard in Resources */,
+				ABF319531EEDBF92007A9BE3 /* ForecastViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +277,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF319081EEDA4DE007A9BE3 /* ViewController.swift in Sources */,
+				ABF319491EEDB002007A9BE3 /* DataManagerOutput.swift in Sources */,
+				ABF3193C1EEDAD7E007A9BE3 /* ForecastEntity.swift in Sources */,
+				ABF319431EEDAEEF007A9BE3 /* Beaufort.swift in Sources */,
+				ABF319471EEDAFBA007A9BE3 /* Cardinal.swift in Sources */,
+				ABF3194B1EEDB084007A9BE3 /* DataManagerInput.swift in Sources */,
+				ABF3193A1EEDAD22007A9BE3 /* ForecastViewInput.swift in Sources */,
+				ABF319511EEDB61A007A9BE3 /* ForecastViewCell.swift in Sources */,
+				ABF319371EEDAD22007A9BE3 /* ForecastPresenter.swift in Sources */,
+				ABF3194D1EEDB1C8007A9BE3 /* ForecastPresenterInput.swift in Sources */,
+				ABF3193E1EEDAE15007A9BE3 /* ForecastViewModel.swift in Sources */,
+				ABF319591EEDED3D007A9BE3 /* README.md in Sources */,
 				ABF319061EEDA4DE007A9BE3 /* AppDelegate.swift in Sources */,
+				ABF3194F1EEDB232007A9BE3 /* DataManager.swift in Sources */,
+				ABF319391EEDAD22007A9BE3 /* ForecastViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABF319091EEDA4DE007A9BE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABF3190A1EEDA4DE007A9BE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABF3190E1EEDA4DE007A9BE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +492,7 @@
 				ABF319211EEDA4DE007A9BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABF319221EEDA4DE007A9BE3 /* Build configuration list for PBXNativeTarget "WiproTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +501,7 @@
 				ABF319241EEDA4DE007A9BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

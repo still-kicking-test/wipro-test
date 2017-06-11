@@ -3,7 +3,7 @@
 //  WiproTaskTests
 //
 //  Created by Jonathan Saville on 11/06/2017.
-//  Copyright © 2017 4rm and function limited. All rights reserved.
+//  Copyright © Jonathan Saville. All rights reserved.
 //
 
 import XCTest

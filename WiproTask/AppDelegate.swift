@@ -3,7 +3,7 @@
 //  WiproTask
 //
 //  Created by Jonathan Saville on 11/06/2017.
-//  Copyright © 2017 4rm and function limited. All rights reserved.
+//  Copyright © Jonathan Saville. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let viewController = ForecastViewController()
+        let presenter = ForecastPresenter()
+        let dataManager = DataManager()
+
+        viewController.presenter = presenter
+        presenter.view = viewController
+        presenter.dataManager = dataManager
+        
+        let navController = UINavigationController()
+        navController.viewControllers = [viewController]
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window!.rootViewController = navController
+        self.window?.makeKeyAndVisible()
+
         return true
     }
 
