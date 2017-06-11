@@ -24,7 +24,6 @@
 		ABF3194F1EEDB232007A9BE3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF3194E1EEDB232007A9BE3 /* DataManager.swift */; };
 		ABF319511EEDB61A007A9BE3 /* ForecastViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF319501EEDB61A007A9BE3 /* ForecastViewCell.swift */; };
 		ABF319531EEDBF92007A9BE3 /* ForecastViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF319521EEDBF92007A9BE3 /* ForecastViewCell.xib */; };
-		ABF319591EEDED3D007A9BE3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ABF319581EEDED3D007A9BE3 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,7 +286,6 @@
 				ABF319371EEDAD22007A9BE3 /* ForecastPresenter.swift in Sources */,
 				ABF3194D1EEDB1C8007A9BE3 /* ForecastPresenterInput.swift in Sources */,
 				ABF3193E1EEDAE15007A9BE3 /* ForecastViewModel.swift in Sources */,
-				ABF319591EEDED3D007A9BE3 /* README.md in Sources */,
 				ABF319061EEDA4DE007A9BE3 /* AppDelegate.swift in Sources */,
 				ABF3194F1EEDB232007A9BE3 /* DataManager.swift in Sources */,
 				ABF319391EEDAD22007A9BE3 /* ForecastViewController.swift in Sources */,
