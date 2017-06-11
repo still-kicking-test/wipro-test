@@ -2,7 +2,11 @@ Running the app
 ---------------
 The app has been built to show the forecast for London, UK.
 
-The app may be built and run in the standard way from an XCode Simulator. It is suggested the iPhone 7 Plus Simulator is selected.
+The app may be built and run in the standard way from an XCode Simulator, though note that an appropriate 'development team' will
+first need to be selected (in the 'General' tab for the WiproTask target).
+
+It is suggested the iPhone 7 Plus Simulator is selected.
+
 I have not created any Unit Tests (see below, 'areas for potential improvement').
 
 
